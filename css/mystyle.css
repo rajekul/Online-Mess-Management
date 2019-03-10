@@ -1,0 +1,36 @@
+.add{
+	font-size: 15px;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+    color: #003366;
+    position: relative;
+    animation: myfirst 10s linear 2s infinite alternate;
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {color:#003366; left:0%;}
+    25%  {color:#003366; left:10%;}
+    50%  {color:black; left:20%;}
+    75%  {color:#800000; left:30%;}
+    100% {color:#800000; left:40%;}
+}
+.home_page{
+	background:url(../files/logo/index.jpg)no-repeat;
+    background-position:0px 0px;
+	text-align: left;
+	min-height: 100%;
+	background-size:cover;
+}
+.back_color{
+	
+	background-color:rgba(26,26,26,.8);
+	
+}
+.login_panel{
+	
+	background-color:rgba(192, 192, 192,.5);
+	border-radius:10px;
+	color:#2952a3
+	
+}
